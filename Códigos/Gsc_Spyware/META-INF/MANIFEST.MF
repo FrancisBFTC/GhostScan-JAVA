@@ -3,10 +3,10 @@ Class-Path: .
 Main-Class: key.KeyLogger
 
 Name: org/jnativehook
-Specification-Title: JNativeHook Library
+Specification-Title: jnativehook Library
 Implementation-Title: org.jnativehook
-Implementation-Version: 2
-Specification-Version: 2.0
+Implementation-Version: 0
+Specification-Version: 2.1
 Specification-Vendor: Alexander Barker (alex@1stleg.com)
 Implementation-Vendor: Alexander Barker (alex@1stleg.com)
 

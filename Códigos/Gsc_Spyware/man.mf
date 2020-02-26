@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Class-Path: .
-Main-Class: virus.bugHardware.bugVirusInfinit
+Main-Class: virus.bugHardware.bugVirusLimited
 
 Name: org/jnativehook
 Specification-Title: JNativeHook Library

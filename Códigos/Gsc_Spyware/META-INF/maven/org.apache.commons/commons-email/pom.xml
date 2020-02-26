@@ -19,21 +19,21 @@
     <parent>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-parent</artifactId>
-      <version>37</version>
+      <version>27</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.apache.commons</groupId>
     <artifactId>commons-email</artifactId>
-    <version>1.4</version>
-    <name>Apache Commons Email</name>
+    <version>1.3</version>
+    <name>Commons Email</name>
 
     <inceptionYear>2001</inceptionYear>
     <description>
-        Apache Commons Email aims to provide an API for sending email. It is built on top of
+        Commons-Email aims to provide an API for sending email. It is built on top of
         the JavaMail API, which it aims to simplify.
     </description>
 
-    <url>http://commons.apache.org/proper/commons-email/</url>
+    <url>http://commons.apache.org/email/</url>
 
     <issueManagement>
         <system>jira</system>
@@ -51,7 +51,7 @@
             <name>dIon Gillard</name>
             <id>dion</id>
             <email>dion@apache.org</email>
-            <organization>The Apache Software Foundation</organization>
+            <organization>Apache Software Foundation</organization>
             <roles>
               <role>Java Developer</role>
             </roles>
@@ -130,7 +130,7 @@
             <name>Ben Speakmon</name>
             <id>bspeakmon</id>
             <email>bspeakmon@apache.org</email>
-            <organization>The Apache Software Foundation</organization>
+            <organization>Apache Software Foundation</organization>
             <roles>
                 <role>Java Developer</role>
             </roles>
@@ -139,7 +139,6 @@
         <developer>
             <name>Siegfried Goeschl</name>
             <id>sgoeschl</id>
-            <email>sgoeschl@apache.org</email>            
             <roles>
               <role>Java Developer</role>
             </roles>
@@ -148,39 +147,42 @@
         <developer>
             <name>Thomas Neidhart</name>
             <id>tn</id>
-            <email>tn@apache.org</email>
-            <organization>The Apache Software Foundation</organization>
             <roles />
         </developer>        
-        <developer>
-            <name>Gary Gregory</name>
-            <id>ggregory</id>
-            <email>ggregory@apache.org</email>
-            <url>http://www.garygregory.com</url>
-            <timezone>-5</timezone>
-        </developer>
     </developers>
-    <contributors>    
+    <contributors>
+        <contributor>
+            <name>Mark Lowe</name>
+            <email>mark.lowe@boxstuff.com</email>
+            <roles />
+        </contributor>
+        <contributor>
+            <name>Niall Pemberton</name>
+            <roles />
+        </contributor>
+        <contributor>
+            <name>Corey Scott</name>
+            <email>corey.scott@gmail.com</email>
+            <roles />
+        </contributor>
+        <contributor>
+            <name>Eric Spiegelberg</name>
+            <email>eric@spiegs.com</email>
+            <roles />
+        </contributor>
+        <contributor>
+            <name>Matthias Wessendorf</name>
+            <email>matthias@wessendorf.net</email>
+            <roles />
+        </contributor>
         <contributor>
             <name>Bindul Bhowmik</name>
         </contributor>
         <contributor>
-            <name>Colin Chalmers</name>
-            <email>colin.chalmers@maxware.nl</email>
-        </contributor> 
-        <contributor>
-            <name>Frank Y. Kim</name>
-            <email>frank.kim@clearink.com</email>
+            <name>Brandon Wolfe</name>
         </contributor>
         <contributor>
-            <name>Regis Koenig</name>
-        </contributor>
-        <contributor>
-            <name>Stephen Kruger</name>
-        </contributor>
-        <contributor>
-            <name>Sean Legassick</name>
-            <email>sean@informage.net</email>
+            <name>Piero Ottuzzi</name>
         </contributor>
         <contributor>
             <name>Andrew Liles</name>
@@ -189,50 +191,16 @@
             <name>Cedrik Lime</name>
         </contributor>
         <contributor>
-            <name>Mark Lowe</name>
-            <email>mark.lowe@boxstuff.com</email>
-        </contributor>
-        <contributor>
-            <name>Brett McLaughlin</name>
-            <email>bmclaugh@algx.net</email>
-        </contributor>
-        <contributor>
-            <name>Piero Ottuzzi</name>
-        </contributor>
-        <contributor>
-            <name>Niall Pemberton</name>
-        </contributor>
-        <contributor>
-            <name>Greg Ritter</name>
-            <email>greg@shwoop.com</email>
-        </contributor>
-        <contributor>
-            <name>Corey Scott</name>
-            <email>corey.scott@gmail.com</email>
-        </contributor>
-        <contributor>
-            <name>Eric Spiegelberg</name>
-            <email>eric@spiegs.com</email>
-        </contributor>
-        <contributor>
             <name>Dominik Stadler</name>
-        </contributor>
-        <contributor>
-            <name>Matthias Wessendorf</name>
-            <email>matthias@wessendorf.net</email>
-        </contributor>
-        <contributor>
-            <name>Brandon Wolfe</name>
         </contributor>
     </contributors>
 
     <dependencies>
         <dependency>
-            <groupId>com.sun.mail</groupId>
-            <artifactId>javax.mail</artifactId>
-            <version>1.5.2</version>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.5</version>
         </dependency>
-        <!-- JAF is built-in to Java 6 -->
         <dependency>
             <groupId>javax.activation</groupId>
             <artifactId>activation</artifactId>
@@ -242,12 +210,6 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-jdk14</artifactId>
-            <version>1.7.7</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -262,51 +224,38 @@
     		<artifactId>subethasmtp</artifactId>
     		<version>3.1.7</version>
     		<scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>javax.mail</groupId>
-                    <artifactId>mail</artifactId>
-                </exclusion>
-            </exclusions>
     	</dependency>
         <dependency>
             <groupId>org.powermock</groupId>
             <artifactId>powermock-module-junit4</artifactId>
-            <version>${powermock.version}</version>
+            <version>1.4.12</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.powermock</groupId>
             <artifactId>powermock-api-easymock</artifactId>
-            <version>${powermock.version}</version>
+            <version>1.4.12</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.easymock</groupId>
             <artifactId>easymock</artifactId>
-            <version>${easymock.version}</version>
+            <version>3.1</version>
             <scope>test</scope>
-        </dependency>
+        </dependency>       
     </dependencies>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <maven.compiler.source>1.5</maven.compiler.source>
-        <maven.compiler.target>1.5</maven.compiler.target>
+        <maven.compile.source>1.5</maven.compile.source>
+        <maven.compile.target>1.5</maven.compile.target>
         <commons.componentid>email</commons.componentid>
         <commons.jira.id>EMAIL</commons.jira.id>
         <commons.jira.pid>12310474</commons.jira.pid>
-        <commons.release.version>1.4</commons.release.version>
-        <commons.rc.version>RC1</commons.rc.version>
+        <commons.release.version>1.3</commons.release.version>
+        <commons.rc.version>RC7</commons.rc.version>
         <commons.binary.suffix>-bin</commons.binary.suffix>
-
-        <!-- override the default commons encoding property -->
-        <commons.encoding>UTF-8</commons.encoding>
-        
-        <powermock.version>1.4.12</powermock.version>
-        <easymock.version>3.2</easymock.version>
-        <findbugs.version>2.5.5</findbugs.version>
     </properties> 
 
     <build>
@@ -317,9 +266,9 @@
                 <configuration>
                     <!-- exclude test case support classes -->
                     <excludes>
+                        <exclude>org/apache/commons/mail/BaseEmailTestCase.java</exclude>
                         <exclude>org/apache/commons/mail/mocks/*</exclude>
                         <exclude>org/apache/commons/mail/settings/*</exclude>
-                        <exclude>**/Abstract*Test.java</exclude>
                     </excludes>
                 </configuration>
             </plugin>
@@ -351,16 +300,7 @@
                 <configuration>
                     <mavenExecutorId>forked-path</mavenExecutorId>
                 </configuration>
-            </plugin>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-scm-publish-plugin</artifactId>
-            <configuration>
-              <ignorePathsToDelete>
-                <ignorePathToDelete>javadocs</ignorePathToDelete>
-              </ignorePathsToDelete>
-            </configuration>
-          </plugin>
+            </plugin>            
         </plugins>
     </build>
 
@@ -378,6 +318,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-changes-plugin</artifactId>
+                <version>2.6</version>
                 <configuration>
                     <issueLinkTemplate>%URL%/%ISSUE%</issueLinkTemplate>
                 </configuration>
@@ -392,7 +333,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>2.13</version>
+                <version>2.7</version>
                 <configuration>
                     <configLocation>${basedir}/conf/checkstyle.xml</configLocation>
                     <enableRulesSummary>false</enableRulesSummary>
@@ -404,13 +345,13 @@
                 <artifactId>maven-pmd-plugin</artifactId>
                 <version>2.7.1</version>
                 <configuration>
-                    <targetJdk>${maven.compiler.target}</targetJdk>
+                    <targetJdk>${maven.compile.target}</targetJdk>
                 </configuration>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>findbugs-maven-plugin</artifactId>
-                <version>${findbugs.version}</version>
+                <version>2.5.2</version>
                 <configuration>
                     <threshold>Normal</threshold>
                     <effort>Default</effort>
@@ -420,6 +361,9 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>clirr-maven-plugin</artifactId>
+                <configuration>
+                  <comparisonVersion>1.2</comparisonVersion>
+                </configuration>                
             </plugin>
             <plugin>
                 <groupId>org.apache.rat</groupId>
@@ -445,18 +389,5 @@
                 </site>
             </distributionManagement>
         </profile>
-        
-  		<profile>
-  			<!-- Use a profile to detect if we are running in a Java 1.8 environment.
-  			     Use different versions of easymock/powermock, otherwise the test execution will fail -->
-  		    <id>test_java_8</id>
-    		<activation>
-      			<jdk>1.8</jdk>
-    		</activation>
-    		<properties>
-        		<powermock.version>1.5.6</powermock.version>
-                <findbugs.version>3.0.0</findbugs.version>
-    		</properties>
-		</profile>        
     </profiles>
 </project>

