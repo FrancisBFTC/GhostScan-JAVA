@@ -155,7 +155,7 @@ O GhostScan utiliza determinados procedimentos para realizar suas principais tar
   * Envios de email & scanners nativos
   * Estrutura de pastas organizadas
   * Arquivos em lote do Windows (Batch File)
-  * outros algoritmos
+  * Outros algoritmos
   * Informação de versões & atualização
   
  ## 1. Dependência do software
@@ -209,4 +209,23 @@ para envio de mensagens sem nenhuma formatação, como o: **SimpleMail**. Atualm
 
 Além de algoritmos de Scanners e emails, o GhostScan trabalha com algoritmos de detectar informações de rede, IP e ScreenShot da tela. Porém é importante ressaltar que não é o GhostScan que utiliza esses algoritmos - É o keylogger que foi gerado pelo GhostScan. Então como prioridade o que software faz: Ele verifica as opções selecionadas e inseridas do usuário, guarda em variáveis e faz comparações, dependendo do resultado da comparação o software armazena inúmeros algoritmos em formato de texto (String) em variáveis, após isso, estas variáveis são concatenadas com outras que seriam padrões para todos os keyloggers, o que nos dar **23 possibilidades** de algoritmos diferentes (Claro que em outras versões do GhostScan as possibilidades irão muito além disso), então é escrito um arquivo com o conteúdo das possíveis variáveis concatenadas, este arquivo é compilado e gerado o JAR que se transforma no keylogger.
 
-Agora falando dos algoritmos específicos para outras operações: O ScreenShot da tela utiliza classes que verifica o tamanho da tela com a classe **Dimension**, tira o screenshot através da classe **Robot**, armazena o Screenshot em um buffer de imagem pela classe **BufferedImage** e escreve a imagem no sistema através da classe **ImageIO** com o tipo JPEG e um nome pré-definido. Este nome da imagem é usado para enviar como anexo para o email. Já nas informações de rede, o algoritmo utiliza a classe **InetAddress** para detectar informações de IPs internos, nome do computador e servidores locais, utiliza também a classe **Inet4Address** para pegar o nome do servidor local. No caso das placas e interfaces de redes instaladas, as informações são obtidas da classe **NetworkInterface** e percorre informações completas através de _Enumerações_ também utilizando a classe **InterfaceAddress**. Para cada classe desta existe métodos responsáveis por tais operações. O IP público é obtido fazendo uma requisição via URL do site [checkip amazonaws](http://checkip.amazonaws.com), a informação é capturada por um _leitor bufferizado_ com _Streams de Entrada_. Cada algoritmo desse armazena informações em variáveis, onde tais variáveis são concatenadas e enviadas para o email.
+Agora falando dos algoritmos específicos para outras operações: O ScreenShot da tela utiliza classes que verifica o tamanho da tela com a classe **Dimension**, tira o screenshot através da classe **Robot**, armazena o Screenshot em um buffer de imagem pela classe **BufferedImage** e escreve a imagem no sistema através da classe **ImageIO** com o tipo JPEG e um nome pré-definido. Este nome da imagem é usado para enviar como anexo para o email. Já nas informações de rede, o algoritmo utiliza a classe **InetAddress** para detectar informações de IPs internos, nome do computador e servidores locais, utiliza também a classe **Inet4Address** para pegar o nome do servidor local. No caso das placas e interfaces de redes instaladas, as informações são obtidas da classe **NetworkInterface** e percorre informações completas através de _Enumerações_ também utilizando a classe **InterfaceAddress**. Para cada classe desta existem métodos responsáveis por tais operações. O IP público é obtido fazendo uma requisição via URL do site [checkip amazonaws](http://checkip.amazonaws.com), a informação é capturada por um _leitor bufferizado_ com _Streams de Entrada_. Cada algoritmo desse armazena informações em variáveis, onde tais variáveis são concatenadas e enviadas para o email.
+
+  ### 2.5. Informações de versões & Atualização
+  
+  Após ler toda a documentação do GhostScan, aqui são destacadas todas as funcionalidades acrescentadas e correções futuras do GhostScan 2.0:
+
+**Correções --->**
+
+ * O sistema da versão 1.0 foi feito para ambientes Windows, mesmo que "algumas" funcionalidades executam no linux. No GhostScan 2.0 o software vai identificar o sistema operacional e terá algumas operações diferentes em cada plataforma, o que possibilitará executar todas as funcionalidades em qualquer plataforma: Windows, Mac & Linux.
+ 
+ * O GhostScan para gerar o keylogger precisa da JDK instalada. Na versão 2.0, o software irá identificar se existe uma JDK instalada e se as variáveis de ambiente estão setadas, caso não estiver ele executa o JDK da própria pasta raiz do software, sem mesmo ter que precisar configurar variáveis de ambiente. Porém se existir a JDK mas as variáveis de ambiente não estão setadas, o software vai apenas setar as variáveis.
+ 
+ * Como descrito na documentação, o software executa os arquivos .bat pré-gerados para efetuar alguma operação. Na outra versão isso não será necessário, pois esta parte será corrigida. Os comandos serão efetuados pelo próprio algoritmo do software, o que diminui a quantidade de arquivos da pasta raiz.
+
+**Novas funcionalidades --->**
+
+ * 
+ *
+ *
+ *
