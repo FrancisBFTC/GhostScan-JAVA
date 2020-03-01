@@ -243,10 +243,12 @@ Agora falando dos algoritmos específicos para outras operações: O ScreenShot 
  
  **Detalhes importantes:** O Software GhostScan tem a versão **free Trial** neste mesmo repositório e a versão **comercial**. A versão Free Trial funciona apenas em 3 dias e bloqueia alguns recursos, sendo utilizado apenas para teste do programa. A versão comercial funciona por tempo ilimitado e contém todos os recursos descritos até aqui. A versão Free Trial também está disponível no site da [BFTCorporations](http://bftcorporations.mywebcommunity.com) para [Download](http://bftcorporations.mywebcommunity.org/Downloads/GhostScan1.0/), já para ter acesso a versão paga o usuário precisaria ter um ID e senha criado pelo administrador após a compra do software. Após a compra, o usuário poderia acessar este mesmo ID para baixar a versão 2.0 do software, porém nesta próxima versão não será necessário efetuar esta mesma operação já que o software terá o sistema de **Atualização automática**, sendo assim, o usuário terá direito a todas as atualizações após a compra, incluindo as versões **Mobile App** do GhostScan.
  
- **_Observações:** Estes códigos, documentação e software estão protegidos por direitos autorais. Portanto é proibido a cópia/plágio, a distribuição ou venda do software/código descrito pelo Art. 184 do Código Penal - Decreto Lei 2848/40._
+ **Observações:** _Estes códigos, documentação e software estão protegidos por direitos autorais. Portanto é proibido a cópia/plágio, a distribuição ou venda do software/código descrito pelo Art. 184 do Código Penal - Decreto Lei 2848/40._
+ 
+ ### Agradecimentos
  
  Se chegou até aqui, muito obrigado por ler esta documentação que levou 2 dias para ser concluída! É uma honra poder desenvolver softwares open-sources e comerciais para todos os usuários e programadores. Agradecimentos BFTC!
  
  Ass.: Wender Francis da BFTCorporations.
  
- [Voltar ao repositório](../)
+ [Voltar ao repositório](/master/)
