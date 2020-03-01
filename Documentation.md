@@ -71,6 +71,10 @@ _**Observações:** Por padrão, o software gera o keylogger com scanner de tecl
   enviadas para o email são concatenadas e a cada email recebido uma parte de uma frase digitada pelo alvo é mostrada, porém sempre exibindo e completando todo o restante da frase por cada email. Sabendo que as informações escaneadas são enviadas em um intervalo de tempo de 10 segundos, Então é recomendável que o usuário baixe as informações de emails relevantes e sempre procure 
   fazer uma "limpeza" da sua caixa de entrada, pois a quantidade de informações recebidas em 1 dia é absurdamente grande. Este é um outro exemplo para usar um **Email de teste inutilizável** na configuração do keylogger.
   
+  Neste exemplo da imagem é selecionado todas as opções, o keylogger escaneará e enviará pro email informações de: Posições clicadas do mouse, ScreenShot do monitor, IP público, configurações completas de rede interna e principalmente - As teclas pressionadas.
+  
+   ![](/Imagens/GhostScan6.jpg)
+  
 ## 3. Seleção de sistemas de camuflagem
 
 ### 3.1 Inicialização automática
@@ -108,9 +112,11 @@ Após testar a conexão, é inserido o nome do arquivo Keylogger que será gerad
 ![](/Imagens/GhostScan11.jpg)
 
 Após clicado em sim, o arquivo nomeado **Java Update.jar** é criado na pasta de instalação do GhostScan, este arquivo pode ser transportado, enviado e executado em qualquer computador que contém a JRE.
-_Para mais informações, consulte a pasta **Imagens** no repositório do GitHub que contém imagens que demonstra o funcionamento completo de um keylogger._
 
 ![](/Imagens/GhostScan12.jpg)
+
+_Para mais informações, consulte a pasta **Imagens** no repositório do GitHub que contém imagens que demonstra o funcionamento completo de um keylogger e o funcionamento do **Gerador de vírus**._
+
 ## 5. Informações do software
 
 
