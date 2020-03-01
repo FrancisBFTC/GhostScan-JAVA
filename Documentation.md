@@ -182,6 +182,10 @@ O GhostScan utiliza determinados procedimentos para realizar suas principais tar
   
   ### 1.3. Importação de bibliotecas
  
+  Após todas as configurações serem feitas, algumas bibliotecas são importadas no projeto antes mesmo do desenvolvimento, e são elas: **JNativeHook**, **Commons-email** & **javamail**. O **JNativeHook** é o responsável por disponibilizar métodos para leitura de mouse e teclado de forma nativa. Diferentemente dos **_KeyEvents_** que são padrões do JDK que ler o teclado apenas
+na Interface do software, os **_NativeKeyEvents_** ler o teclado fora da interface, ou seja, em qualquer lugar do computador.
+Isto é o que permite o Keylogger escanear informações de teclas. O **Commons-email** e **javamail** contém classes que possibilitam o envio de **emails**. Estas classes contém métodos para autenticação de login, definição de mensagens, envio de mensagens,etc... A biblioteca também contém a classe para envio de emails formatados em Html, como o: **HtmlMail** e a classe 
+para envio de mensagens sem nenhuma formatação, como o: **SimpleMail**. Atualmente estas bibliotecas sofreram algumas atualizações com novas versões, o que explicam os possíveis bugs que poderiam gerar no software caso o computador do usuário esteja programado para atualizar o java automaticamente, porém na versão 2.0 do GhostScan a atualização automática também será disponível, o que eliminará as possíveis falhas por conta das atualizações do Java.
   
   
 
