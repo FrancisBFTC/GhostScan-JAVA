@@ -144,5 +144,30 @@ Apesar de tantas funcionalidades do GhostScan, o software contém algumas limita
   
 <h1 align="center"> ---------- Descrições Técnicas ---------- </h1>
 
+O GhostScan utiliza determinados procedimentos para realizar suas principais tarefas, contando com - dependências de bibliotecas, estrutura de pastas, kit de desenvolvimento java, configurações no sistema operacional e arquivos em lotes do windows, as principais tarefas selecionadas com níveis prioritários são:
+
+ ### Dependência do software
+  * Kit de desenvolvimento Java(JDK)
+  * Configurações do sistema operacional
+  * Importação de bibliotecas
+  
+ ### Algoritmos & Organização
+  * Envios de email & scanners nativos
+  * Estrutura de pastas organizadas
+  * Arquivos em lote do Windows (Batch File)
+  * Algoritmos
+  
+ ## 1. Dependência do software
+  
+ ### 1.1. Kit de desenvolvimento Java(JDK)
+ 
+ Após lermos as <a href="#">Descrições Gerais</a> sabemos que o GhostScan funciona como um **programador** criando programas.
+ Isto significa que ele precisa criar arquivos fontes que contém classes do Java, compilar esses arquivos e depois gerar o
+ executável. Para todos esses procedimentos é preciso ter a JDK instalada na máquina, pois é ela que possibilita as ferramentas
+ e classes necessárias para desenvolver em linguagem java, as principais ferramentas utilizadas são: jar.exe e javac.exe.
+ Isto inclui arquivos JARs responsável por guardar classes e métodos para a programação em Java.
+  
+  
+
 
 
