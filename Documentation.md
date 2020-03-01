@@ -164,7 +164,7 @@ O GhostScan utiliza determinados procedimentos para realizar suas principais tar
  Após lermos as <a href="#topo">Descrições Gerais</a> sabemos que o GhostScan funciona como um **programador** criando programas.
  Isto significa que ele precisa criar arquivos fontes que contém classes do Java, compilar esses arquivos e depois gerar o
  executável. Para todos esses procedimentos é preciso ter a JDK instalada na máquina, pois é ela que possibilita as ferramentas
- e classes necessárias para desenvolver em linguagem java e gerar o keylogger, as principais ferramentas utilizadas são: jar.exe e javac.exe. Isto inclui arquivos JARs responsável por guardar classes e métodos para a programação em Java. Caso o usuário não tenha a JDK em sua máquina, deveria fazer o [download da JDK](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) do site oficial da oracle. A ferramenta deve ser instalada no diretório **C:\\Program Files\\Java\\**(Por padrão o JDK já instala automaticamente a JRE que também é necessária para execução de aplicações em Java).
+ e classes necessárias para desenvolver em linguagem java e gerar o keylogger, as principais ferramentas utilizadas são: jar.exe e javac.exe. Isto inclui arquivos JARs responsáveis por guardar classes e métodos para a programação em Java. Caso o usuário não tenha a JDK em sua máquina, deveria fazer o [download da JDK](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) do site oficial da oracle. A ferramenta deve ser instalada no diretório **C:\\Program Files\\Java\\**(Por padrão o JDK já instala automaticamente a JRE que também é necessária para execução de aplicações em Java).
  
  ### 1.2. Configurações do sistema operacional
  
@@ -187,6 +187,20 @@ na Interface do software, os **_NativeKeyEvents_** ler o teclado fora da interfa
 Isto é o que permite o Keylogger escanear informações de teclas. O **Commons-email** e **javamail** contém classes que possibilitam o envio de **emails**. Estas classes contém métodos para autenticação de login, definição de mensagens, envio de mensagens,etc... A biblioteca também contém a classe para envio de emails formatados em Html, como o: **HtmlMail** e a classe 
 para envio de mensagens sem nenhuma formatação, como o: **SimpleMail**. Atualmente estas bibliotecas sofreram algumas atualizações com novas versões, o que explicam os possíveis bugs que poderiam gerar no software caso o computador do usuário esteja programado para atualizar o java automaticamente, porém na versão 2.0 do GhostScan a atualização automática também será disponível, o que eliminará as possíveis falhas por conta das atualizações do Java.
   
+  ## 2. Algoritmos & Organização
+  
+  ### 2.1. Envios de emails & scanners nativos
+  
+  Como descrito em **Importação de bibliotecas**, o software trabalha com classes e métodos responsáveis por enviar emails e 
+  escanear mouse/teclado de forma nativa. A classe de cada Keylogger implementa as interfaces **NativeMouseInputListener** e **NativeKeyListener** na qual cada interface contém métodos que são gerados para detectar movimento do mouse, cliques do mouse, pressionamento de teclas,etc... As posições do mouse são capturadas e são guardados textos em variáveis que são resultados de valores intermediários das regiões da tela. Já as teclas são concatenadas em variáveis a cada pressionamento, comparações são feitas para detectar cada tecla escaneada armazenando o resultado em variável global. Após todas as informações serem armazenadas, a cada intervalo de tempo (ou se cliques for detectados), As classes de email realizam autenticação dos dados de email inseridos no keylogger, a porta e o servidor do Gmail são setados e a classe envia um texto para o email, formatado em Html concatenado com as variáveis que guardam informações escaneadas.
+  
+  **Observaçoes:** _Neste caso, o GhostScan só criam keyloggers que utilizam o servidor do **Gmail**. Na versão 2.0 será acrescentado opções para escolher outros servidores, por exemplo: Hotmail, Outlook,etc..._
+  
+  ### 2.2. Estrutura de pastas organizadas
+  
+  O keylogger para ser gerado precisa de uma **Estrutura de pastas** pré-criadas. Estas pastas são instaladas no ato da Instalação do software e o diretório origem do GhostScan fica exatamente junto com estas pastas. Neste diretório estruturado contém pastas de bibliotecas como o JNativeHook e o Commons-email, pastas que contém bibliotecas do Java, Pasta de imagens do GhostScan, arquivos de manifestos, arquivos em lotes do windows para compilação e a pasta que é gerada os arquivos compilados do keylogger. Esta estrutura de pastas são nada mais nada menos os que ficam compactados com o JAR do arquivo keylogger, portanto esta estrutura é necessária para a geração do arquivo executável.
+  
+  ### 2.3. Arquivos em lotes do Windows (Batch Files)
   
 
 
