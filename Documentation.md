@@ -225,7 +225,13 @@ Agora falando dos algoritmos específicos para outras operações: O ScreenShot 
 
 **Novas funcionalidades --->**
 
+ * No sistema poderá ser selecionado a opção para enviar **Geo-localização aproximada** para o email baseado no IP público. Isto significa que: se o alvo tem um pendrive configurado para auto-execução e contém o keylogger lá dentro, o monitorador poderá saber a região que o alvo está se ele estiver utilizando um computador em outro local (com o respectivo pendrive), por exemplo: Numa lan house. O sistema enviará informações completas de latitude e longitude, região, cidade,etc...
+ 
+ * Tornar pendrives auto-executáveis: O GhostScan poderá também além de gerar um keylogger, tornar um pendrive auto-executável e copiar o keylogger para ele, isto significa que na inserção do pendrive em qualquer computador, o keylogger será copiado para o computador e executado automaticamente.
+ 
+ * Outro sistema de camuflagem implementado no GhostScan é o de **Conversão de tipos**. Após o keylogger ser gerado no formato **.jar**(Arquivo executável java), o usuário poderá escolher o conversor de tipos para converter do formato .jar para .exe (Arquivo executável do windows), dando uma maior camuflagem e possibilitando também a próxima funcionalidade.
+ 
+ * Com um executável do tipo **.exe** o usuário poderá escolher no sistema de camuflagem um **ícone** para o keylogger, o GhostScan por padrão terá no seu sistema vários ícones prontos de outros softwares para ser escolhido, porém o usuário também poderá escolher seu próprio ícone em diretórios do seu computador.
+ 
  * 
- *
- *
- *
+ 
