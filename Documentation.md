@@ -164,8 +164,24 @@ O GhostScan utiliza determinados procedimentos para realizar suas principais tar
  Após lermos as <a href="#topo">Descrições Gerais</a> sabemos que o GhostScan funciona como um **programador** criando programas.
  Isto significa que ele precisa criar arquivos fontes que contém classes do Java, compilar esses arquivos e depois gerar o
  executável. Para todos esses procedimentos é preciso ter a JDK instalada na máquina, pois é ela que possibilita as ferramentas
- e classes necessárias para desenvolver em linguagem java, as principais ferramentas utilizadas são: jar.exe e javac.exe.
- Isto inclui arquivos JARs responsável por guardar classes e métodos para a programação em Java.
+ e classes necessárias para desenvolver em linguagem java e gerar o keylogger, as principais ferramentas utilizadas são: jar.exe e javac.exe. Isto inclui arquivos JARs responsável por guardar classes e métodos para a programação em Java. Caso o usuário não tenha a JDK em sua máquina, deveria fazer o [download da JDK](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) do site oficial da oracle. A ferramenta deve ser instalada no diretório **C:\\Program Files\\Java\\**(Por padrão o JDK já instala automaticamente a JRE que também é necessária para execução de aplicações em Java).
+ 
+ ### 1.2. Configurações do sistema operacional
+ 
+ Na instalação do software GhostScan, o instalador já executa um arquivo executável extra para as configurações do sistema
+ operacional. Este arquivo contém todos os comandos cmd necessários para definir variáveis de ambiente, criando as variáveis
+ **JAVA_HOME**, **CLASSPATH** e **PATH** para setar os conteúdos delas com diretórios do JDK e JRE. Isto é necessário pois pra
+ compilar as classes do keylogger para .class e criar o executáveis JARs, o sistema utiliza as ferramentas jar e javac o que
+ exigem obrigatoriamente as definições das variáveis de ambiente. As variáveis são setadas com os seguintes valores:
+ 
+  * JAVA_HOME = "C:\Program Files\Java\jdkxxxx\"
+  * CLASSPATH = ";%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;%JAVA_HOME%\lib\dt.jar;"
+  * PATH = "%PATH%;%JAVA_HOME%\bin;"
+  
+  **Observações:** _O **xxxx** em **JAVA_HOME** seria a versão do JDK, consulte o nome da pasta dentro do diretório **Java**_
+  
+  ### 1.3. Importação de bibliotecas
+ 
   
   
 
