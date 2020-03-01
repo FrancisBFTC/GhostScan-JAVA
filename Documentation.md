@@ -251,4 +251,4 @@ Agora falando dos algoritmos específicos para outras operações: O ScreenShot 
  
  Ass.: Wender Francis da BFTCorporations.
  
- [Voltar ao repositório](/master/)
+ [Voltar ao repositório](https://github.com/FrancisBFTC/GhostScan-JAVA/)
