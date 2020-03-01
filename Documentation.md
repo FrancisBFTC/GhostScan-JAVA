@@ -18,9 +18,9 @@ O GhostScan é um software/spyware cuja finalidade é gerar arquivos que monitor
   * <a href="#scan4"> Scanner de rede interna completa </a>
   
 ### Seleção de sistemas de camuflagem:
-  * <a href="init"> Inicialização automática </a>
-  * <a href="ocult"> Ocultação de arquivo </a>
-  * <a href="prog"> Programação de tempo de execução </a>
+  * <a href="#init"> Inicialização automática </a>
+  * <a href="#ocult"> Ocultação de arquivo </a>
+  * <a href="#prog"> Programação de tempo de execução </a>
   
 ### Seleção de Gerador do Keylogger:
   * <a href=""> Inserção de email </a>
@@ -85,7 +85,7 @@ _**Observações:** Por padrão, o software gera o keylogger com <a href="#scan5
   
 ## 3. Seleção de sistemas de camuflagem
 
-### 3.1 Inicialização automática
+### <a href="init"> 3.1 Inicialização automática </a>
 
 Nesta opção, o sistema do keylogger se responsabiliza em se auto-copiar para a pasta descrito na variável de ambiente **%AppData%** cujo conteúdo é "C:\Users\xxxx\AppData\Roaming\", onde "xxxx" seria a pasta de usuário do computador, o sistema faz uma concatenação com os próximos diretórios, ficando: "C:\Users\xxxx\AppData\Roaming\Microsoft\Windows\Start Menu\Programs". Neste diretório é aonde fica todos os programas que executa automaticamente quando o computador é ligado, então se o keylogger é
 copiado para este diretório significa que o keylogger vai executar automaticamente toda vez que o computador ligar. 
@@ -96,14 +96,14 @@ copiado para este diretório significa que o keylogger vai executar automaticame
 
  ![](/Imagens/GhostScan7.jpg)
  
-### 3.2 Ocultação de arquivo
+### <a href="ocult"> 3.2 Ocultação de arquivo </a>
 
 Este é um processo que oculta o keylogger após executado, quando esta opção é selecionada, o modo invisível é ativado o que significa que no local que for executado o keylogger, o sistema executa comandos para fazer sumir o arquivo. Nem mesmo ativando
 a opção de "Mostrar arquivos ocultos" do painel de controle irá achar o keylogger, pois o keylogger utiliza um comando específico do sistema para ocultar arquivos, mesmo que eles ainda continuam executando na máquina do alvo.
 
 ![](/Imagens/GhostScan8.jpg)
 
-### 3.3 Programação de tempo de execução
+### <a href="prog"> 3.3 Programação de tempo de execução </a>
 
 Na parte de "Tempo de execução" existe uma informação que mostra a data atual e um campo de texto para inserir uma data. A data que é inserida é referente ao dia e mês que o keylogger irá ser finalizado, ou seja, parar de executar. O sistema identifica a data atual e faz uma comparação com a data inserida a cada dia que o keylogger é iniciado, quando a data atual é igual a data inserida, o sistema finaliza a tarefa relacionada ao keylogger.Isto é quando o usuário decide monitorar seu alvo durante um tempo específico.
 
