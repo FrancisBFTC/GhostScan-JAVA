@@ -215,7 +215,7 @@ Agora falando dos algoritmos específicos para outras operações: O ScreenShot 
   
   Após ler toda a documentação do GhostScan, aqui são destacadas todas as funcionalidades acrescentadas e correções futuras do GhostScan 2.0:
 
-**Correções --->**
+**Correções na versão 2.0 --->**
 
  * O sistema da versão 1.0 foi feito para ambientes Windows, mesmo que "algumas" funcionalidades executam no linux. No GhostScan 2.0 o software vai identificar o sistema operacional e terá algumas operações diferentes em cada plataforma, o que possibilitará executar todas as funcionalidades em qualquer plataforma: Windows, Mac & Linux.
  
@@ -223,7 +223,7 @@ Agora falando dos algoritmos específicos para outras operações: O ScreenShot 
  
  * Como descrito na documentação, o software executa os arquivos .bat pré-gerados para efetuar alguma operação. Na outra versão isso não será necessário, pois esta parte será corrigida. Os comandos serão efetuados pelo próprio algoritmo do software, o que diminui a quantidade de arquivos da pasta raiz.
 
-**Novas funcionalidades --->**
+**Novas funcionalidades na versão 2.0 --->**
 
  * No sistema poderá ser selecionado a opção para enviar **Geo-localização aproximada** para o email baseado no IP público. Isto significa que: se o alvo tem um pendrive configurado para auto-execução e contém o keylogger lá dentro, o monitorador poderá saber a região que o alvo está se ele estiver utilizando um computador em outro local (com o respectivo pendrive), por exemplo: Numa lan house. O sistema enviará informações completas de latitude e longitude, região, cidade,etc...
  
@@ -233,5 +233,12 @@ Agora falando dos algoritmos específicos para outras operações: O ScreenShot 
  
  * Com um executável do tipo **.exe** o usuário poderá escolher no sistema de camuflagem um **ícone** para o keylogger, o GhostScan por padrão terá no seu sistema vários ícones prontos de outros softwares para ser escolhido, porém o usuário também poderá escolher seu próprio ícone em diretórios do seu computador.
  
- * 
+ * Além do GhostScan ter opções de escanear teclado, mouse, ip, rede & screenshot, o software terá mais uma opção: Escanear históricos de navegadores. Todos os sites que o alvo pesquisar, o keylogger capturará todo o histórico dos browsers e enviará para o email do monitorador.
  
+ * Na versão 1.0 o usuário só consegue gerar o keylogger na pasta raiz do programa, o que significa que dependendo da pasta, o usuário precisa ter permissão de escrita naquele diretório e sabemos que nem todos os diretórios tem esta permissão, Exemplo: Arquivos de programas. O sistema operacional automaticamente bloqueia a opção de escrita, a não ser que o usuário faça manualmente configurações de liberar permissão de administrador, porém na versão 2.0 não será necessário - Existirá um novo campo para o usuário escolher onde gostaria de criar o seu keylogger, ele poderá criar até na área de trabalho se quiser, o que elimina o fato de possíveis conflitos de permissão.
+ 
+ * Atualmente o GhostScan trabalha com o servidor [smtp.gmail.com](https://gmail.com) na porta 447, o que significa que o keylogger só envia informações para contas de **Gmail**. Na versão 2.0, em vez do usuário ter que precisar criar uma nova conta do gmail apenas para monitoramento, ele pode criar contas em qualquer servidor, pois o GhostScan 2.0 terá a opção de escolher em qualquer servidor desejaria que o keylogger estivesse configurado, se seria o servidor do **hotmail** ou do **outlook** ou outros... Então isto vai depender da conta que o usuário inserir nas configurações do keylogger.
+ 
+ * Por último mas não menos importante: O sistema de atualização automática estará disponível na versão 2.0. O software terá um executável de atualização junto na pasta de instalação que irá identificar se há uma nova versão do GhostScan no site da BFTC, se houver, o sistema alertará o usuário pedindo a confirmação para fazer a atualização do sistema. O software irá fazer download do site oficial, excluir os diretórios antigos e reinstalar a outra versão do GhostScan. Então o sistema de atualização sempre executará quando o computador do usuário ligar.
+ 
+ **_Detalhes importantes:** _
