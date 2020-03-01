@@ -32,7 +32,7 @@ _**Observações:** Por padrão, o software gera o keylogger com scanner de tecl
   
   **Recomendações:** _Sempre utilize um email & senha inutilizável pré-criado para inserir no software, assim para testar os vírus ou keyloggers, tenha no seu computador uma máquina virtual instalado um sistema operacional para testes._
   
-  ![](/Imagens/GhostScan1.jpg)
+  ![](/Imagens/GhostScan1.png)
   
 ## 2. Seleção de Scanners
 
