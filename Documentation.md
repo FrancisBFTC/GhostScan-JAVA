@@ -1,4 +1,4 @@
-# Descrições Gerais
+﻿# Descrições Gerais
 
 O GhostScan é um software/spyware cuja finalidade é gerar arquivos que monitoram as informações de pessoas. O software funciona tal
 como um programador - ele cria programas chamado **Keylogger** que monitora indivíduos baseando em configurações do usuário. As configurações do usuário são: 
@@ -119,4 +119,6 @@ _Para mais informações, consulte a pasta **Imagens** no repositório do GitHub
 
 ## 5. Informações do software
 
+No menu de **Informações** contém o nome do software, o tipo, a função/objetivo e outras informações. Na atualização disponíve é nenhuma por que o software não utiliza um sistema de auto-atualização ainda. A versão atualmente é 1.0, futuramente na versão 2.0 o software executará em ambientes linux, windows & mac, como também funcionalidades de: envio de informações de geo-localização, conversão de .jar para .exe (executável windows) do keylogger, definição de ícone do executável & scanner de históricos de navegadores. Na parte de **Tutoria do programa**, existe um link **Clique aqui** que redireciona para a página oficial de Download do GhostScan no Site da BFTCorporations. Lembrando que apenas a versão Trial é disponibilizada para download.
 
+![](/Imagens/GhostScan13.jpg)
