@@ -1,10 +1,15 @@
 **********************************************************************************
 <h1 align="center">Documentação do GhostScan</h1>
 
-<a name="topo"><h1 align="center"> ---------- Descrições Gerais ---------- </h1></a>
+Bem vindo a documentação do GhostScan! aqui é demonstrado todas as funcionalidades atuais do software, descrições gerais e técnicas. Se optar por ler um assunto em específico abaixo contém um menu de atalho, se não, continue rolando para ler toda a documentação:
 
-O GhostScan é um software/spyware cuja finalidade é gerar arquivos que monitoram as informações de pessoas. O software funciona tal
-como um programador - ele cria programas chamado **Keylogger** que monitora indivíduos baseando em configurações do usuário. As configurações do usuário são: 
+  * <a href="#desc1"> Descrições Gerais </a>
+  * <a href="#desc2"> Descrições Técnicas </a>
+  * <a href="#util"> Utilização do software </a>
+ 
+<a name="desc1"><h1 align="center"> ---------- Descrições Gerais ---------- </h1></a>
+
+O GhostScan é um software/spyware cuja finalidade é gerar arquivos que monitoram as informações de pessoas. O software funciona tal como um programador - ele cria programas chamado **Keylogger** que monitora indivíduos baseando em configurações do usuário. As configurações do usuário são: 
 
 ### Seleção de Scanners: 
   * Scanner de mouse 
@@ -24,7 +29,7 @@ como um programador - ele cria programas chamado **Keylogger** que monitora indi
 
 _**Observações:** Por padrão, o software gera o keylogger com scanner de teclado, mesmo se o usuário não configurar nada._
 
-<h1 align="center"> ---------- Funcionamento do Software ---------- </h1>
+<a name="util"><h1 align="center"> ---------- Utilização do Software ---------- </h1></a>
 
 ## 1. Interface Inicial
 
@@ -142,7 +147,7 @@ Apesar de tantas funcionalidades do GhostScan, o software contém algumas limita
   conexão falhar inesperadamente, o email configurado no keylogger para de receber informações até que a conexão do alvo volte
   ao normal. Por isso existe a opção "Testar conexão".
   
-<h1 align="center"> ---------- Descrições Técnicas ---------- </h1>
+<a name="desc2"><h1 align="center"> ---------- Descrições Técnicas ---------- </h1></a>
 
 O GhostScan utiliza determinados procedimentos para realizar suas principais tarefas, contando com - dependências de bibliotecas, estrutura de pastas, kit de desenvolvimento java, configurações no sistema operacional e arquivos em lotes do windows, as principais tarefas selecionadas com níveis prioritários são:
 
