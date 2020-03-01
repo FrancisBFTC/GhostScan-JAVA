@@ -1,7 +1,7 @@
 **********************************************************************************
 <h1 align="center">Documentação do GhostScan</h1>
 
-<h1 align="center"> ---------- Descrições Gerais ---------- </h1>
+<a name="topo"><h1 align="center"> ---------- Descrições Gerais ---------- </h1></a>
 
 O GhostScan é um software/spyware cuja finalidade é gerar arquivos que monitoram as informações de pessoas. O software funciona tal
 como um programador - ele cria programas chamado **Keylogger** que monitora indivíduos baseando em configurações do usuário. As configurações do usuário são: 
@@ -161,7 +161,7 @@ O GhostScan utiliza determinados procedimentos para realizar suas principais tar
   
  ### 1.1. Kit de desenvolvimento Java(JDK)
  
- Após lermos as <a href="#">Descrições Gerais</a> sabemos que o GhostScan funciona como um **programador** criando programas.
+ Após lermos as <a href="#topo">Descrições Gerais</a> sabemos que o GhostScan funciona como um **programador** criando programas.
  Isto significa que ele precisa criar arquivos fontes que contém classes do Java, compilar esses arquivos e depois gerar o
  executável. Para todos esses procedimentos é preciso ter a JDK instalada na máquina, pois é ela que possibilita as ferramentas
  e classes necessárias para desenvolver em linguagem java, as principais ferramentas utilizadas são: jar.exe e javac.exe.
