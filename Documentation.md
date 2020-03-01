@@ -98,4 +98,17 @@ Na parte de "Tempo de execução" existe uma informação que mostra a data atua
 ![](/Imagens/GhostScan9.jpg)
 
 ## 4. Geração do Keylogger
+  
+  Na Interface inicial é inserido um email e uma senha pré-criada para testes. Logo após clicar em "Testar Conexão", o sistema faz uma autenticação de login do email e envia uma mensagem confirmando que o keylogger irá funcionar com sucesso. Isto é para testar se há uma conexão com a internet e se realmente o email irá receber informações do keylogger. 
+![](/Imagens/GhostScan10.jpg)
+Após testar a conexão, é inserido o nome do arquivo Keylogger que será gerado. É recomendável que utilize um nome menos chamativo, discreto e comum, algo que o alvo não irá suspeitar. Neste caso, como o arquivo gerado é um .jar(Arquivo Executável Java), é colocado o nome "Java Update" - já que o **Atualizador do Java**(Java Update) é bastante comum estar instalado em computadores que contém a JRE(Java Runtime Environment). Após definir o nome, o botão "Criar Keylogger" é clicado e uma mensagem de confirmação pergunta se realmente quer gerar o keylogger.
+
+![](/Imagens/GhostScan11.jpg)
+
+Após clicado em sim, o arquivo nomeado **Java Update.jar** é criado na pasta de instalação do GhostScan, este arquivo pode ser transportado, enviado e executado em qualquer computador que contém a JRE.
+_Para mais informações, consulte a pasta **Imagens** no repositório do GitHub que contém imagens que demonstra o funcionamento completo de um keylogger._
+
+![](/Imagens/GhostScan12.jpg)
 ## 5. Informações do software
+
+
