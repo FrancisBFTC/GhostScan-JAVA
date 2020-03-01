@@ -155,7 +155,8 @@ O GhostScan utiliza determinados procedimentos para realizar suas principais tar
   * Envios de email & scanners nativos
   * Estrutura de pastas organizadas
   * Arquivos em lote do Windows (Batch File)
-  * Algoritmos
+  * outros algoritmos
+  * Informação de versões & atualização
   
  ## 1. Dependência do software
   
@@ -202,6 +203,8 @@ para envio de mensagens sem nenhuma formatação, como o: **SimpleMail**. Atualm
   
   ### 2.3. Arquivos em lotes do Windows (Batch Files)
   
+**_Batch Files_** ou **_Arquivos .bat_** são arquivos em lotes do Windows para armazenar e executar comandos do CMD, conhecido como **Prompt de comando**. Alguns softwares necessitam de operações utilizando estes comandos, como é o caso do GhostScan. Um exemplo é quando o software executa outro software que precisa de parâmetros e argumentos.. o GhostScan executa as ferramentas JAR e JAVAC para compilação do código do Keylogger.. como também executa as mesmas ferramentas para compilação e geração do executável do vírus **Ghost**. Estas ferramentas utilizam parâmetros via linha de comando utilizando CMD, o que o GhostScan faz é usar as mesmas linhas de comando alterando e armazenando variáveis em arquivos BAT, pois para cada arquivo gerado há um nome diferente, esses nomes são passados em variáveis BAT. Outra questão é a inicialização automática, onde o keylogger se auto-copia para um certo diretório do computador, Esta cópia é possibilitada através de um comando CMD, porém não utiliza os arquivos BATs desta vez, isto é feito no próprio código. Para setar as variáveis de ambiente no ato da instalação é a mesma coisa - um arquivo BAT é gerado e executado. O que será alterado na versão 2.0 será isto, o software não mais utilizará os Batch Files mas sim: utilizará os comandos no próprio código do keylogger.
 
+ ### 2.4. Outros algoritmos
 
 
