@@ -1,3 +1,6 @@
+**********************************************************************************
+<h1 align="center">Documentação do GhostScan</h1>
+
 # Descrições Gerais
 
 O GhostScan é um software/spyware cuja finalidade é gerar arquivos que monitoram as informações de pessoas. O software funciona tal
@@ -122,5 +125,24 @@ _Para mais informações, consulte a pasta **Imagens** no repositório do GitHub
 No menu de **Informações** contém o nome do software, o tipo, a função/objetivo e outras informações. Na **atualização disponível** é nenhuma por que o software não utiliza um sistema de auto-atualização ainda. A versão atualmente é 1.0, futuramente na versão 2.0 o software executará em ambientes linux, windows & mac, como também funcionalidades de: envio de informações de geo-localização, conversão de .jar para .exe (executável windows) do keylogger, definição de ícone do executável & scanner de históricos de navegadores. Na parte de **Tutorial do programa**, existe um link **Clique aqui** que redireciona para a página oficial de Download do GhostScan no Site da BFTCorporations. Lembrando que apenas a versão Trial é disponibilizada para download.
 
 ![](/Imagens/GhostScan13.jpg)
+
+## 6. Limitações do software
+
+Apesar de tantas funcionalidades do GhostScan, o software contém algumas limitações e são elas:
+
+  * A opção de **Inicialização automática** só funciona em ambientes Windows. Em outras plataformas este processo deve ser feito
+  manualmente. Exemplo: Copiar o arquivo keylogger para a pasta de inicialização automática de programas.
+  * O GhostScan só gera o arquivo keylogger se existir a JDK(Java Development Kit) instalada. A JRE não é suficiente para fazer
+  funcionar o software, já que o sistema funciona como um "Programador" que gera programas.
+  * A versão 1.0 do GhostScan não contém uma **Atualização Disponível**, isto significa que se o computador, que esta executando  
+  o GhostScan, atualizar a JRE/JDK automaticamente, existem riscos de algumas funcionalidades do software não funcionar ou ter
+  possíveis bugs. Obs.: Isto será corrigido na versão 2.0.
+  * O GhostScan deve ser instalado em um diretório que tem permissão de escrita, já que o keylogger por padrão é gerado neste diretório. Se um determinado usuário instalar o software numa pasta que não tem permissão, simplesmente os arquivos keyloggers não serão gerados. Obs.: Isto também será corrigido na versão 2.0.
+  * Se o computador do alvo, que estiver executando o keylogger, não estiver conexão com a internet ou por algum motivo a
+  conexão falhar inesperadamente, o email configurado no keylogger para de receber informações até que a conexão do alvo volte
+  ao normal. Por isso existe a opção "Testar conexão".
+  
+# Descrições Técnicas
+
 
 
