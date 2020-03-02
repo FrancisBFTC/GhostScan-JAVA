@@ -304,6 +304,7 @@ Agora falando dos algoritmos específicos para outras operações: O ScreenShot 
  Se chegou até aqui, muito obrigado por ler esta documentação que levou 2 dias para ser concluída! É uma honra poder desenvolver softwares open-sources e comerciais para todos os usuários e programadores. Agradecimentos BFTC!
  
  Ass.: Wender Francis da BFTCorporations.
- Site Oficial --> [bftcorporations.mywebcommunity.org](http://bftcorporations.mywebcommunity.org/Courses)
+ 
+ Site Oficial : [bftcorporations.mywebcommunity.org](http://bftcorporations.mywebcommunity.org/Courses)
  
  [Voltar ao repositório](https://github.com/FrancisBFTC/GhostScan-JAVA/)
