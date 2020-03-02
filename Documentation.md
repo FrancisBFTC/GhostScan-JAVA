@@ -1,5 +1,5 @@
 **********************************************************************************
-<h1 align="center"><a name="top">Documentação do GhostScan</a></h1>
+<h1 align="center"><a name="top">Documentação do GhostScan</a></h1
 
 Bem vindo a documentação do GhostScan! aqui é demonstrado todas as funcionalidades atuais do software, descrições gerais e técnicas. Se optar por ler um assunto em específico abaixo contém um menu de atalho, se não, continue rolando para ler toda a documentação:
   
