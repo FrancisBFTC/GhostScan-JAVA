@@ -48,7 +48,7 @@ _**Observações:** Por padrão, o software gera o keylogger com <a href="#scan5
   
   ![](/Imagens/GhostScan1.png)
   
-  <a href="#menuprincipal">Voltar ao menu</a>
+  <a href="#menuprincipal">Voltar ao menu principal</a>
   
 ## 2. Seleção de Scanners
 
@@ -196,6 +196,8 @@ O GhostScan utiliza determinados procedimentos para realizar suas principais tar
   * <a href="#out"> Outros algoritmos </a>
   * <a href="#info"> Informação de versões & atualização </a>
   
+  <a href="#menuprincipal">Voltar ao menu principal</a>
+  
  ## 1. Dependência do software
   
  ### <a name="kit"> 1.1. Kit de desenvolvimento Java(JDK) </a>
@@ -297,7 +299,7 @@ Agora falando dos algoritmos específicos para outras operações: O ScreenShot 
  
  **Observações:** _Estes códigos, documentação e software estão protegidos por direitos autorais. Portanto é proibido a cópia/plágio, a distribuição ou venda do software/código descrito pelo Art. 184 do Código Penal - Decreto Lei 2848/40._
  
- <a href="#menu2">Voltar ao menu</a>
+ <a href="#menuprincipal">Voltar ao menu principal</a>
  
  ### Agradecimentos
  
