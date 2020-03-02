@@ -12,7 +12,7 @@ Bem vindo a documentação do GhostScan! aqui é demonstrado todas as funcionali
 
 O GhostScan é um software/spyware cuja finalidade é gerar arquivos que monitoram as informações de pessoas. O software funciona tal como um programador - ele cria programas chamado **Keylogger** que monitora indivíduos baseando em configurações do usuário. As configurações do usuário são: 
 
-<a name="menu"></a>
+<a name="menu1"></a>
 ### Seleção de Scanners:
   * <a href="#scan1"> Scanner de mouse </a> 
   * <a href="#scan2"> Scanner de monitor </a> 
@@ -61,7 +61,7 @@ _**Observações:** Por padrão, o software gera o keylogger com <a href="#scan5
    
    ![](/Imagens/GhostScan2.jpg)
    
-   <a href="#menu">Voltar ao menu</a>
+   <a href="#menu1">Voltar ao menu</a>
    
    ### <a name="scan2"> 2.2 Scanner de monitor </a>
    
@@ -70,7 +70,7 @@ _**Observações:** Por padrão, o software gera o keylogger com <a href="#scan5
    
    ![](/Imagens/GhostScan3.jpg)
    
-   <a href="#menu">Voltar ao menu</a>
+   <a href="#menu1">Voltar ao menu</a>
    
    ### <a name="scan3"> 2.3 Scanner de IP público </a>
    
@@ -78,7 +78,7 @@ _**Observações:** Por padrão, o software gera o keylogger com <a href="#scan5
    
    ![](/Imagens/GhostScan4.jpg)
    
-   <a href="#menu">Voltar ao menu</a>
+   <a href="#menu1">Voltar ao menu</a>
    
    ### <a name="scan4"> 2.4 Scanner de rede interna </a>
    
@@ -86,7 +86,7 @@ _**Observações:** Por padrão, o software gera o keylogger com <a href="#scan5
 
   ![](/Imagens/GhostScan5.jpg)
   
-  <a href="#menu">Voltar ao menu</a>
+  <a href="#menu1">Voltar ao menu</a>
   
   ### <a name="scan5"> 2.5 Scanner de teclado </a>
   
@@ -99,7 +99,7 @@ _**Observações:** Por padrão, o software gera o keylogger com <a href="#scan5
   
    ![](/Imagens/GhostScan6.jpg)
    
-   <a href="#menu">Voltar ao menu</a>
+   <a href="#menu1">Voltar ao menu</a>
   
 ## 3. Seleção de sistemas de camuflagem
 
@@ -114,7 +114,7 @@ copiado para este diretório significa que o keylogger vai executar automaticame
 
  ![](/Imagens/GhostScan7.jpg)
  
- <a href="#menu">Voltar ao menu</a>
+ <a href="#menu1">Voltar ao menu</a>
  
 ### <a name="ocult"> 3.2 Ocultação de arquivo </a>
 
@@ -123,7 +123,7 @@ a opção de "Mostrar arquivos ocultos" do painel de controle irá achar o keylo
 
 ![](/Imagens/GhostScan8.jpg)
 
-<a href="#menu">Voltar ao menu</a>
+<a href="#menu1">Voltar ao menu</a>
 
 ### <a name="prog"> 3.3 Programação de tempo de execução </a>
 
@@ -131,7 +131,7 @@ Na parte de "Tempo de execução" existe uma informação que mostra a data atua
 
 ![](/Imagens/GhostScan9.jpg)
 
-<a href="#menu">Voltar ao menu</a>
+<a href="#menu1">Voltar ao menu</a>
 
 ## 4. Seleção de Gerador do Keylogger
   
@@ -151,7 +151,7 @@ Após clicado em sim, o arquivo nomeado **Java Update.jar** é criado na pasta d
 
 _Para mais informações, consulte a pasta **Imagens** no repositório do GitHub que contém imagens que demonstra o funcionamento completo de um keylogger e o funcionamento do **Gerador de vírus**._
 
-<a href="#menu">Voltar ao menu</a>
+<a href="#menu1">Voltar ao menu</a>
 
 ## <a name="inf"> 5. Informações do software </a>
   
@@ -159,7 +159,7 @@ No menu de **Informações** contém o nome do software, o tipo, a função/obje
 
 ![](/Imagens/GhostScan13.jpg)
 
-<a href="#menu">Voltar ao menu</a>
+<a href="#menu1">Voltar ao menu</a>
 
 ## <a name="lim"> 6. Limitações do software </a>
 
@@ -177,34 +177,37 @@ Apesar de tantas funcionalidades do GhostScan, o software contém algumas limita
   conexão falhar inesperadamente, o email configurado no keylogger para de receber informações até que a conexão do alvo volte
   ao normal. Por isso existe a opção "Testar conexão".
   
-  <a href="#menu">Voltar ao menu</a>
+  <a href="#menu1">Voltar ao menu</a>
   
 <a name="desc2"><h1 align="center"> ---------- Descrições Técnicas ---------- </h1></a>
 
 O GhostScan utiliza determinados procedimentos para realizar suas principais tarefas, contando com - dependências de bibliotecas, estrutura de pastas, kit de desenvolvimento java, configurações no sistema operacional e arquivos em lotes do windows, as principais tarefas selecionadas com níveis prioritários são:
 
+<a name="menu2"></a>
  ### Dependência do software
-  * Kit de desenvolvimento Java(JDK)
-  * Configurações do sistema operacional
-  * Importação de bibliotecas
+  * <a href="#kit"> Kit de desenvolvimento Java(JDK) </a>
+  * <a href="#conf"> Configurações do sistema operacional </a>
+  * <a href="#imp"> Importação de bibliotecas </a>
   
  ### Algoritmos & Organização
-  * Envios de email & scanners nativos
-  * Estrutura de pastas organizadas
-  * Arquivos em lote do Windows (Batch File)
-  * Outros algoritmos
-  * Informação de versões & atualização
+  * <a href="#env"> Envios de email & scanners nativos </a>
+  * <a href="#est"> Estrutura de pastas organizadas </a>
+  * <a href="#arq"> Arquivos em lote do Windows (Batch File) </a>
+  * <a href="#out"> Outros algoritmos </a>
+  * <a href="#info"> Informação de versões & atualização </a>
   
  ## 1. Dependência do software
   
- ### 1.1. Kit de desenvolvimento Java(JDK)
+ ### <a name="kit"> 1.1. Kit de desenvolvimento Java(JDK) </a>
  
  Após lermos as <a href="#desc1">Descrições Gerais</a> sabemos que o GhostScan funciona como um **programador** criando programas.
  Isto significa que ele precisa criar arquivos fontes que contém classes do Java, compilar esses arquivos e depois gerar o
  executável. Para todos esses procedimentos é preciso ter a JDK instalada na máquina, pois é ela que possibilita as ferramentas
  e classes necessárias para desenvolver em linguagem java e gerar o keylogger, as principais ferramentas utilizadas são: jar.exe e javac.exe. Isto inclui arquivos JARs responsáveis por guardar classes e métodos para a programação em Java. Caso o usuário não tenha a JDK em sua máquina, deveria fazer o [download da JDK](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) do site oficial da oracle. A ferramenta deve ser instalada no diretório **C:\\Program Files\\Java\\**(Por padrão o JDK já instala automaticamente a JRE que também é necessária para execução de aplicações em Java).
- 
- ### 1.2. Configurações do sistema operacional
+
+<a href="#menu2">Voltar ao menu</a>
+
+ ### <a name="conf"> 1.2. Configurações do sistema operacional </a>
  
  Na instalação do software GhostScan, o instalador já executa um arquivo executável extra para as configurações do sistema
  operacional. Este arquivo contém todos os comandos cmd necessários para definir variáveis de ambiente, criando as variáveis
@@ -218,37 +221,49 @@ O GhostScan utiliza determinados procedimentos para realizar suas principais tar
   
   **Observações:** _O **xxxx** em **JAVA_HOME** seria a versão do JDK, consulte o nome da pasta dentro do diretório **Java**_
   
-  ### 1.3. Importação de bibliotecas
+  <a href="#menu2">Voltar ao menu</a>
+  
+  ### <a name="imp"> 1.3. Importação de bibliotecas </a>
  
   Após todas as configurações serem feitas, algumas bibliotecas são importadas no projeto antes mesmo do desenvolvimento, e são elas: **JNativeHook**, **Commons-email** & **javamail**. O **JNativeHook** é o responsável por disponibilizar métodos para leitura de mouse e teclado de forma nativa. Diferentemente dos **_KeyEvents_** que são padrões do JDK que ler o teclado apenas
 na Interface do software, os **_NativeKeyEvents_** ler o teclado fora da interface, ou seja, em qualquer lugar do computador.
 Isto é o que permite o Keylogger escanear informações de teclas. O **Commons-email** e **javamail** contém classes que possibilitam o envio de **emails**. Estas classes contém métodos para autenticação de login, definição de mensagens, envio de mensagens,etc... A biblioteca também contém a classe para envio de emails formatados em Html, como o: **HtmlMail** e a classe 
 para envio de mensagens sem nenhuma formatação, como o: **SimpleMail**. Atualmente estas bibliotecas sofreram algumas atualizações com novas versões, o que explicam os possíveis bugs que poderiam gerar no software caso o computador do usuário esteja programado para atualizar o java automaticamente, porém na versão 2.0 do GhostScan a atualização automática também será disponível, o que eliminará as possíveis falhas por conta das atualizações do Java.
   
+  <a href="#menu2">Voltar ao menu</a>
+  
   ## 2. Algoritmos & Organização
   
-  ### 2.1. Envios de emails & scanners nativos
+  ### <a name="env"> 2.1. Envios de emails & scanners nativos </a>
   
   Como descrito em **Importação de bibliotecas**, o software trabalha com classes e métodos responsáveis por enviar emails e 
   escanear mouse/teclado de forma nativa. A classe de cada Keylogger implementa as interfaces **NativeMouseInputListener** e **NativeKeyListener** na qual cada interface contém métodos que são gerados para detectar movimento do mouse, cliques do mouse, pressionamento de teclas,etc... As posições do mouse são capturadas e são guardados textos em variáveis que são resultados de valores intermediários das regiões da tela. Já as teclas são concatenadas em variáveis a cada pressionamento, comparações são feitas para detectar cada tecla escaneada armazenando o resultado em variável global. Após todas as informações serem armazenadas, a cada intervalo de tempo (ou se cliques for detectados), As classes de email realizam autenticação dos dados de email inseridos no keylogger, a porta e o servidor do Gmail são setados e a classe envia um texto para o email, formatado em Html concatenado com as variáveis que guardam informações escaneadas.
   
   **Observaçoes:** _Neste caso, o GhostScan só criam keyloggers que utilizam o servidor do **Gmail**. Na versão 2.0 será acrescentado opções para escolher outros servidores, por exemplo: Hotmail, Outlook,etc..._
   
-  ### 2.2. Estrutura de pastas organizadas
+  <a href="#menu2">Voltar ao menu</a>
+  
+  ### <a name="est"> 2.2. Estrutura de pastas organizadas </a>
   
   O keylogger para ser gerado precisa de uma **Estrutura de pastas** pré-criadas. Estas pastas são instaladas no ato da Instalação do software e o diretório origem do GhostScan fica exatamente junto com estas pastas. Neste diretório estruturado contém pastas de bibliotecas como o JNativeHook e o Commons-email, pastas que contém bibliotecas do Java, Pasta de imagens do GhostScan, arquivos de manifestos, arquivos em lotes do windows para compilação e a pasta que é gerada os arquivos compilados do keylogger. Esta estrutura de pastas são nada mais nada menos os que ficam compactados com o JAR do arquivo keylogger, portanto esta estrutura é necessária para a geração do arquivo executável.
   
-  ### 2.3. Arquivos em lotes do Windows (Batch Files)
+  <a href="#menu2">Voltar ao menu</a>
+  
+  ### <a name="arq"> 2.3. Arquivos em lotes do Windows (Batch Files) </a>
   
 **_Batch Files_** ou **_Arquivos .bat_** são arquivos em lotes do Windows para armazenar e executar comandos do CMD, conhecido como **Prompt de comando**. Alguns softwares necessitam de operações utilizando estes comandos, como é o caso do GhostScan. Um exemplo é quando o software executa outro software que precisa de parâmetros e argumentos.. o GhostScan executa as ferramentas JAR e JAVAC para compilação do código do Keylogger.. como também executa as mesmas ferramentas para compilação e geração do executável do vírus **Ghost**. Estas ferramentas utilizam parâmetros via linha de comando utilizando CMD, o que o GhostScan faz é usar as mesmas linhas de comando alterando e armazenando variáveis em arquivos BAT, pois para cada arquivo gerado há um nome diferente, esses nomes são passados em variáveis BAT. Outra questão é a inicialização automática, onde o keylogger se auto-copia para um certo diretório do computador, Esta cópia é possibilitada através de um comando CMD, porém não utiliza os arquivos BATs desta vez, isto é feito no próprio código. Para setar as variáveis de ambiente no ato da instalação é a mesma coisa - um arquivo BAT é gerado e executado. O que será alterado na versão 2.0 será isto, o software não mais utilizará os Batch Files mas sim: utilizará os comandos no próprio código do keylogger.
 
- ### 2.4. Outros algoritmos
+<a href="#menu2">Voltar ao menu</a>
+
+ ### <a name="out"> 2.4. Outros algoritmos </a>
 
 Além de algoritmos de Scanners e emails, o GhostScan trabalha com algoritmos de detectar informações de rede, IP e ScreenShot da tela. Porém é importante ressaltar que não é o GhostScan que utiliza esses algoritmos - É o keylogger que foi gerado pelo GhostScan. Então como prioridade o que software faz: Ele verifica as opções selecionadas e inseridas do usuário, guarda em variáveis e faz comparações, dependendo do resultado da comparação o software armazena inúmeros algoritmos em formato de texto (String) em variáveis, após isso, estas variáveis são concatenadas com outras que seriam padrões para todos os keyloggers, o que nos dar **23 possibilidades** de algoritmos diferentes (Claro que em outras versões do GhostScan as possibilidades irão muito além disso), então é escrito um arquivo com o conteúdo das possíveis variáveis concatenadas, este arquivo é compilado e gerado o JAR que se transforma no keylogger.
 
 Agora falando dos algoritmos específicos para outras operações: O ScreenShot da tela utiliza classes que verifica o tamanho da tela com a classe **Dimension**, tira o screenshot através da classe **Robot**, armazena o Screenshot em um buffer de imagem pela classe **BufferedImage** e escreve a imagem no sistema através da classe **ImageIO** com o tipo JPEG e um nome pré-definido. Este nome da imagem é usado para enviar como anexo para o email. Já nas informações de rede, o algoritmo utiliza a classe **InetAddress** para detectar informações de IPs internos, nome do computador e servidores locais, utiliza também a classe **Inet4Address** para pegar o nome do servidor local. No caso das placas e interfaces de redes instaladas, as informações são obtidas da classe **NetworkInterface** e percorre informações completas através de _Enumerações_ também utilizando a classe **InterfaceAddress**. Para cada classe desta existem métodos responsáveis por tais operações. O IP público é obtido fazendo uma requisição via URL do site [checkip amazonaws](http://checkip.amazonaws.com), a informação é capturada por um _leitor bufferizado_ com _Streams de Entrada_. Cada algoritmo desse armazena informações em variáveis, onde tais variáveis são concatenadas e enviadas para o email.
 
-  ### 2.5. Informações de versões & Atualização
+<a href="#menu2">Voltar ao menu</a>
+
+  ### <a name="info"> 2.5. Informações de versões & Atualização </a>
   
   Após ler toda a documentação do GhostScan, aqui são destacadas todas as funcionalidades acrescentadas e correções futuras do GhostScan 2.0:
 
@@ -281,6 +296,8 @@ Agora falando dos algoritmos específicos para outras operações: O ScreenShot 
  **Detalhes importantes:** O Software GhostScan tem a versão **free Trial** neste mesmo repositório e a versão **comercial**. A versão Free Trial funciona apenas em 3 dias e bloqueia alguns recursos, sendo utilizado apenas para teste do programa. A versão comercial funciona por tempo ilimitado e contém todos os recursos descritos até aqui. A versão Free Trial também está disponível no site da [BFTCorporations](http://bftcorporations.mywebcommunity.com) para [Download](http://bftcorporations.mywebcommunity.org/Downloads/GhostScan1.0/), já para ter acesso a versão paga o usuário precisaria ter um ID e senha criado pelo administrador após a compra do software. Após a compra, o usuário poderia acessar este mesmo ID para baixar a versão 2.0 do software, porém nesta próxima versão não será necessário efetuar esta mesma operação já que o software terá o sistema de **Atualização automática**, sendo assim, o usuário terá direito a todas as atualizações após a compra, incluindo as versões **Mobile App** do GhostScan.
  
  **Observações:** _Estes códigos, documentação e software estão protegidos por direitos autorais. Portanto é proibido a cópia/plágio, a distribuição ou venda do software/código descrito pelo Art. 184 do Código Penal - Decreto Lei 2848/40._
+ 
+ <a href="#menu2">Voltar ao menu</a>
  
  ### Agradecimentos
  
