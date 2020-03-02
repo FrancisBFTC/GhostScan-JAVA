@@ -29,8 +29,8 @@ O GhostScan é um software/spyware cuja finalidade é gerar arquivos que monitor
   * <a href="#mailpass"> Inserção de senha </a>
   * <a href="#keyname"> Criação de nome do KeyLogger </a>
   
- * <h3><a href="#inf"> Informações do software </a>
- * <a href="#lim"> Limitações do software </a></h3>
+ * <h3><a href="#inf"> Informações do software </a></h3>
+ * <h3><a href="#lim"> Limitações do software </a></h3>
 
 _**Observações:** Por padrão, o software gera o keylogger com <a href="#scan5"> scanner de teclado </a>, mesmo se o usuário não configurar nada._
 
