@@ -29,8 +29,8 @@ O GhostScan é um software/spyware cuja finalidade é gerar arquivos que monitor
   * <a href="#mailpass"> Inserção de senha </a>
   * <a href="#keyname"> Criação de nome do KeyLogger </a>
   
-### <a href="#inf"> Informações do software </a>
-### <a href="#lim"> Limitações do software </a>
+### * <a href="#inf"> Informações do software </a>
+### * <a href="#lim"> Limitações do software </a>
 
 _**Observações:** Por padrão, o software gera o keylogger com <a href="#scan5"> scanner de teclado </a>, mesmo se o usuário não configurar nada._
 
@@ -152,15 +152,15 @@ _Para mais informações, consulte a pasta **Imagens** no repositório do GitHub
 
 <a href="#menu">Voltar ao menu</a>
 
-## 5. Informações do software
-
+## <a name="inf"> 5. Informações do software </a>
+  
 No menu de **Informações** contém o nome do software, o tipo, a função/objetivo e outras informações. Na **atualização disponível** é nenhuma por que o software não utiliza um sistema de auto-atualização ainda. A versão atualmente é 1.0, futuramente na versão 2.0 o software executará em ambientes linux, windows & mac, como também funcionalidades de: envio de informações de geo-localização, conversão de .jar para .exe (executável windows) do keylogger, definição de ícone do executável & scanner de históricos de navegadores. Na parte de **Tutorial do programa**, existe um link **Clique aqui** que redireciona para a página oficial de Download do GhostScan no Site da BFTCorporations. Lembrando que apenas a versão Trial é disponibilizada para download.
 
 ![](/Imagens/GhostScan13.jpg)
 
 <a href="#menu">Voltar ao menu</a>
 
-## 6. Limitações do software
+## <a name="lim"> 6. Limitações do software </a>
 
 Apesar de tantas funcionalidades do GhostScan, o software contém algumas limitações e são elas:
 
