@@ -22,7 +22,7 @@ O GhostScan é um software/spyware cuja finalidade é gerar arquivos que monitor
 ### Seleção de sistemas de camuflagem:
   * <a href="#init"> Inicialização automática </a>
   * <a href="#ocult"> Ocultação de arquivo </a>
-  * <a href="#prog"> Programação de tempo de execução </a>
+  * <a href="#prog"> Programação de tempo de execução dfd
   
 ### Seleção de Gerador do Keylogger:
   * <a href="#mailpass"> Inserção de email </a>
