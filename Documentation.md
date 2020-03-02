@@ -2,7 +2,8 @@
 <h1 align="center">Documentação do GhostScan</h1>
 
 Bem vindo a documentação do GhostScan! aqui é demonstrado todas as funcionalidades atuais do software, descrições gerais e técnicas. Se optar por ler um assunto em específico abaixo contém um menu de atalho, se não, continue rolando para ler toda a documentação:
-
+  
+  <a name="menuprincipal"></a>
   * <a href="#desc1"> Descrições Gerais </a>
   * <a href="#desc2"> Descrições Técnicas </a>
   * <a href="#util"> Utilização do software </a>
@@ -43,7 +44,7 @@ _**Observações:** Por padrão, o software gera o keylogger com <a href="#scan5
   
   ![](/Imagens/GhostScan1.png)
   
-  <a href="#menu">Voltar ao menu</a>
+  <a href="#menuprincipal">Voltar ao menu</a>
   
 ## 2. Seleção de Scanners
 
@@ -65,17 +66,23 @@ _**Observações:** Por padrão, o software gera o keylogger com <a href="#scan5
    
    ![](/Imagens/GhostScan3.jpg)
    
+   <a href="#menu">Voltar ao menu</a>
+   
    ### <a name="scan3"> 2.3 Scanner de IP público </a>
    
    Muito se sabe que IPs públicos ou **IPs Externos** revelam muita coisa sobre uma pessoa, **Exemplo:** _A localização do computador do alvo quando rastreado._ Com a opção de IP público selecionado, o keylogger enviará os números de IP público do alvo.
    
    ![](/Imagens/GhostScan4.jpg)
    
+   <a href="#menu">Voltar ao menu</a>
+   
    ### <a name="scan4"> 2.4 Scanner de rede interna </a>
    
    As informações de rede interna é de grande valia pra quem conhece/trabalha na área. Com a opção de rede interna selecionada, o email configurado no keylogger recebe informações completas, como: Interfaces de redes, nomes das placas de rede instaladas, Números IPV4 e IPV6 (IPs internos), gateway, máscaras de sub-rede, broadcast, nome do computador completo e todas as redes conectadas ao computador do alvo.
 
   ![](/Imagens/GhostScan5.jpg)
+  
+  <a href="#menu">Voltar ao menu</a>
   
   ### <a name="scan5"> 2.5 Scanner de teclado </a>
   
@@ -87,6 +94,8 @@ _**Observações:** Por padrão, o software gera o keylogger com <a href="#scan5
   Neste exemplo da imagem é selecionado todas as opções, o keylogger escaneará e enviará pro email informações de: Posições clicadas do mouse, ScreenShot do monitor, IP público, configurações completas de rede interna e principalmente - As teclas pressionadas.
   
    ![](/Imagens/GhostScan6.jpg)
+   
+   <a href="#menu">Voltar ao menu</a>
   
 ## 3. Seleção de sistemas de camuflagem
 
@@ -101,6 +110,8 @@ copiado para este diretório significa que o keylogger vai executar automaticame
 
  ![](/Imagens/GhostScan7.jpg)
  
+ <a href="#menu">Voltar ao menu</a>
+ 
 ### <a name="ocult"> 3.2 Ocultação de arquivo </a>
 
 Este é um processo que oculta o keylogger após executado, quando esta opção é selecionada, o modo invisível é ativado o que significa que no local que for executado o keylogger, o sistema executa comandos para fazer sumir o arquivo. Nem mesmo ativando
@@ -108,11 +119,15 @@ a opção de "Mostrar arquivos ocultos" do painel de controle irá achar o keylo
 
 ![](/Imagens/GhostScan8.jpg)
 
+<a href="#menu">Voltar ao menu</a>
+
 ### <a name="prog"> 3.3 Programação de tempo de execução </a>
 
 Na parte de "Tempo de execução" existe uma informação que mostra a data atual e um campo de texto para inserir uma data. A data que é inserida é referente ao dia e mês que o keylogger irá ser finalizado, ou seja, parar de executar. O sistema identifica a data atual e faz uma comparação com a data inserida a cada dia que o keylogger é iniciado, quando a data atual é igual a data inserida, o sistema finaliza a tarefa relacionada ao keylogger.Isto é quando o usuário decide monitorar seu alvo durante um tempo específico.
 
 ![](/Imagens/GhostScan9.jpg)
+
+<a href="#menu">Voltar ao menu</a>
 
 ## 4. Seleção de Gerador do Keylogger
   
@@ -132,11 +147,15 @@ Após clicado em sim, o arquivo nomeado **Java Update.jar** é criado na pasta d
 
 _Para mais informações, consulte a pasta **Imagens** no repositório do GitHub que contém imagens que demonstra o funcionamento completo de um keylogger e o funcionamento do **Gerador de vírus**._
 
+<a href="#menu">Voltar ao menu</a>
+
 ## 5. Informações do software
 
 No menu de **Informações** contém o nome do software, o tipo, a função/objetivo e outras informações. Na **atualização disponível** é nenhuma por que o software não utiliza um sistema de auto-atualização ainda. A versão atualmente é 1.0, futuramente na versão 2.0 o software executará em ambientes linux, windows & mac, como também funcionalidades de: envio de informações de geo-localização, conversão de .jar para .exe (executável windows) do keylogger, definição de ícone do executável & scanner de históricos de navegadores. Na parte de **Tutorial do programa**, existe um link **Clique aqui** que redireciona para a página oficial de Download do GhostScan no Site da BFTCorporations. Lembrando que apenas a versão Trial é disponibilizada para download.
 
 ![](/Imagens/GhostScan13.jpg)
+
+<a href="#menu">Voltar ao menu</a>
 
 ## 6. Limitações do software
 
@@ -153,6 +172,8 @@ Apesar de tantas funcionalidades do GhostScan, o software contém algumas limita
   * Se o computador do alvo, que estiver executando o keylogger, não estiver conexão com a internet ou por algum motivo a
   conexão falhar inesperadamente, o email configurado no keylogger para de receber informações até que a conexão do alvo volte
   ao normal. Por isso existe a opção "Testar conexão".
+  
+  <a href="#menu">Voltar ao menu</a>
   
 <a name="desc2"><h1 align="center"> ---------- Descrições Técnicas ---------- </h1></a>
 
