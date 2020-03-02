@@ -203,7 +203,7 @@ O GhostScan utiliza determinados procedimentos para realizar suas principais tar
  Após lermos as <a href="#desc1">Descrições Gerais</a> sabemos que o GhostScan funciona como um **programador** criando programas.
  Isto significa que ele precisa criar arquivos fontes que contém classes do Java, compilar esses arquivos e depois gerar o
  executável. Para todos esses procedimentos é preciso ter a JDK instalada na máquina, pois é ela que possibilita as ferramentas
- e classes necessárias para desenvolver em linguagem java e gerar o keylogger, as principais ferramentas utilizadas são: jar.exe e javac.exe. Isto inclui arquivos JARs responsáveis por guardar classes e métodos para a programação em Java. Caso o usuário não tenha a JDK em sua máquina, deveria fazer o [Download da JDK](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html"){:target="_blank"} download da JDK</a> do site oficial da oracle. A ferramenta deve ser instalada no diretório **C:\\Program Files\\Java\\**(Por padrão o JDK já instala automaticamente a JRE que também é necessária para execução de aplicações em Java).
+ e classes necessárias para desenvolver em linguagem java e gerar o keylogger, as principais ferramentas utilizadas são: jar.exe e javac.exe. Isto inclui arquivos JARs responsáveis por guardar classes e métodos para a programação em Java. Caso o usuário não tenha a JDK em sua máquina, deveria fazer o [Download da JDK](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html") do site oficial da oracle. A ferramenta deve ser instalada no diretório **C:\\Program Files\\Java\\**(Por padrão o JDK já instala automaticamente a JRE que também é necessária para execução de aplicações em Java).
 
 <a href="#menu2">Voltar ao menu</a>
 
