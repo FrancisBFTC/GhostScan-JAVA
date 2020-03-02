@@ -23,9 +23,9 @@ O GhostScan é um software/spyware cuja finalidade é gerar arquivos que monitor
   * <a href="#prog"> Programação de tempo de execução </a>
   
 ### Seleção de Gerador do Keylogger:
-  * <a href=""> Inserção de email </a>
-  * <a href=""> Inserção de senha </a>
-  * <a href=""> Criação de nome do KeyLogger </a>
+  * <a href="#mailpass"> Inserção de email </a>
+  * <a href="#mailpass"> Inserção de senha </a>
+  * <a href="#keyname"> Criação de nome do KeyLogger </a>
 
 _**Observações:** Por padrão, o software gera o keylogger com <a href="#scan5"> scanner de teclado </a>, mesmo se o usuário não configurar nada._
 
@@ -109,12 +109,13 @@ Na parte de "Tempo de execução" existe uma informação que mostra a data atua
 
 ![](/Imagens/GhostScan9.jpg)
 
-## 4. Geração do Keylogger
+## 4. Seleção de Gerador do Keylogger
   
+  <a name="mailpass"></a>
   Na Interface inicial é inserido um email e uma senha pré-criada para testes. Logo após clicar em "Testar Conexão", o sistema faz uma autenticação de login do email e envia uma mensagem confirmando que o keylogger irá funcionar com sucesso. Isto é para testar se há uma conexão com a internet e se realmente o email irá receber informações do keylogger. 
   
 ![](/Imagens/GhostScan10.jpg)
-
+<a name="keyname"></a>
 Após testar a conexão, é inserido o nome do arquivo Keylogger que será gerado. É recomendável que utilize um nome menos chamativo, discreto e comum, algo que o alvo não irá suspeitar. Neste caso, como o arquivo gerado é um .jar(Arquivo Executável Java), é colocado o nome "Java Update" - já que o **Atualizador do Java**(Java Update) é bastante comum estar instalado em computadores que contém a JRE(Java Runtime Environment). Após definir o nome, o botão "Criar Keylogger" é clicado e uma mensagem de confirmação pergunta se realmente quer gerar o keylogger.
 
 ![](/Imagens/GhostScan11.jpg)
